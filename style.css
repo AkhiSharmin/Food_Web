@@ -10,7 +10,17 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 50px;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #dce0e1;
+  box-shadow: 0 10px 10px #757676;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 4px solid red;
+  border-radius: 6px;
 }
 header .shopping {
   position: relative;
@@ -34,8 +44,8 @@ header .shopping span {
 .list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
-  row-gap: 20px;
+  column-gap: 30px;
+  row-gap: 40px;
   margin-top: 50px;
 }
 .list .item {
